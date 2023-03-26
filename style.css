@@ -7,8 +7,8 @@ body {
     background-color: white;
 }
 header {
-	background-color: #333;
-	color: #fff;
+	background-color: black;
+	color: white;
 	text-align: center;
 	padding: 5px;
 }
@@ -21,8 +21,50 @@ header nav ul {
     justify-content: space-between;
     font-size: 25px;
     list-style-type: none;
+}
+  
+.box {
+	width: 200px;
+	height: 200px;
+	min-height: 240px; 
+	margin: 50px;
+	border-radius: 15px;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+/*hover effects*/
+
+.red:hover {
+	transform: rotate(10deg);
+	box-shadow: 0 0 200px red;
+}
+
+.blue:hover {
+	transform: TranslateY(10%);
+	box-shadow: 0 0 200px blue;
+}
+.green:hover {
+	transform: translateX(30%);
+	box-shadow: 0 0 200px green;
+}
+.box img {
+    width: 100px;
+    height: 100px;
   }
-  
-  
   
   
