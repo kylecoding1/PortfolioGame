@@ -18,5 +18,6 @@ CSS
 Github repository link :
 https://github.com/kylecoding1/PortfolioGame
 
-Deployed Application :
+Deployed Application link:
+https://kylecoding1.github.io/PortfolioGame/
 
