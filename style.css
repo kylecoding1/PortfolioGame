@@ -12,6 +12,9 @@ header {
 	text-align: center;
 	padding: 5px;
 }
+h2 {
+   color: white;
+}
 header nav ul {
     color: white;
     display: flex;
@@ -21,63 +24,69 @@ header nav ul {
     justify-content: space-between;
     font-size: 25px;
     list-style-type: none;
-}
+  }
   
-.box {
-	width: 50px;
-	height: 50px;
-	min-height: 50px; 
+  .box {
+	width: 200px;
+	height: 200px;
+	min-height: 240px; 
 	margin: 50px;
-	border-radius: 120px;
+	border-radius: 15px;
 	transition: all 0.3s ease;
 	cursor: pointer;
-	display: flex;
-	flex-direction: column;
+	display: inline-flex;
+    flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-    animation: disappear 0.8s ease-in-out infinite;
-
-
-}
-@keyframes disappear {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-.red {
-	background-color: red;
+    outline-color: aqua;
 }
 
-.blue {
-	background-color: blue;
+.color {
+    background-color: black;
+    border: 5px solid red;
+    box-shadow: 0 0 100px red, 0 0 40px red, 0 0 10px red;
 }
-.green {
-	background-color: green;
+.colorr {
+    background-color: black;
+    border: 5px solid blue;
+    box-shadow: 0 0 100px blue, 0 0 40px blue, 0 0 10px blue;
 }
+.colorrr {
+    background-color: black;
+    border: 5px solid green;
+    box-shadow: 0 0 100px green, 0 0 40px green, 0 0 10px green;
+}
+
+
+
+
 /*hover effects*/
 
-.red:hover {
-	transform: translateY(10%) scale(1.2);
-	box-shadow: 0 0 200px red;
+/*hover effects*/
+.color:hover {
+	transform: skew(10deg);
+    transition: all 0.3s ease-in-out;
+}
+.colorr:hover {
+	transform: translateY(10%);
+    transition: all 0.3s ease-in-out;
+}
+.colorrr:hover {
+	transform: translateX(10%);
+    transition: all 0.3s ease-in-out;
 }
 
-.red:hover {
-	transform: translateY(10%) scale(1.2);
-	box-shadow: 0 0 200px red;
+  .box img {
+    width: 100px;
+    height: 100px;
+  }
+  .box.color1 {
+    border: 10px solid red;
 }
-
-.red:hover {
-	transform: translateY(10%) scale(1.2);
-	box-shadow: 0 0 200px red;
+.box.color2 {
+    border: 10px solid blue;
 }
-
-  
-  
+.box.color3 {
+    border: 10px solid green;
+}
