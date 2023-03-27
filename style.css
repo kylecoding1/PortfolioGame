@@ -42,6 +42,8 @@ header nav ul {
     outline-color: aqua;
 }
 
+/*border*/
+
 .color {
     background-color: black;
     border: 5px solid red;
@@ -76,6 +78,9 @@ header nav ul {
     width: 100px;
     height: 100px;
   }
+
+  /*contact box*/
+  
   .box.color1 {
     border: 10px solid red;
     height: 10px;
