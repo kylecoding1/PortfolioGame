@@ -1,59 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
-        <h1>Kyle's Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+      <h1>Kyle's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <section id="portfilio">
+      <section id="about">
+        <h2>About</h2>
+        <div class="box color1">
+          <a href="./images/About.txt" target="_blank">click me</a>
+          <img src="./images/selfie.jpg" alt="selfie" id="about-image">
+        </div>
+      </section>
+      
+      <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="box color" onclick="this.classList.toggle('clicked')">
           <a href="https://kylecoding1.github.io/prework-study-guide/" target="_blank">
-            <img src="./images/coding.png" alt="coding" />
+            <p>Project 1 (click project 1)</p>
           </a>
         </div>
-        <div class="box colorr" onclick="this.classList.toggle('clicked')">
+        <div class="box colorr" onclick="this.classList.toggle('clicked')">>
           <a href="https://kylecoding1.github.io/mini-project/" target="_blank">
-            <img src="./images/Pseudo Class Cheatsheet.png" alt="Pseudo class" />
+            <p>Project 2 (click project 2)</p>
           </a>
         </div>
         <div class="box colorrr" onclick="this.classList.toggle('clicked')">
           <a href="https://kylecoding1.github.io/module-1-Horiseon/" target="_blank">
-            <img src="./images/Horiseon.png" alt="coding" />
+            <p>Project 3 (click project 3)</p>
           </a>
         </div>
-      </section>
-      
-      <section id="about">
-        <h2>About</h2>
-        <p></p>
       </section>
     </main>
 
     <section id="contact">
       <h2>Contact</h2>
-      <div>
-        <p>Email: Kylelambo20@gmail.com</p>
+      <div class="box color2"> 
+        <p>Email:
+        <a href="kylelambo20@gmail.com">kylelambo20@gmail.com</a></p>
       </div>
     </section>
-    <div class="box color1">...</div>
-
 
   </body>
 </html>
-
